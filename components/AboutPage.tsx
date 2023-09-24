@@ -4,7 +4,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 
 function AboutPage() {
   return (
-    <section id="aboutSection" className="px-8 text-white h-full">
+    <section id="aboutSection" className="px-8 text-white h-full pt-10">
       <div className="flex lg:flex-row md:flex-col flex-col justify-between items-center">
         <div className="flex-col justify-center items-center md:items-center hidden lg:flex lg:pt-10">
           <Image alt="" src="/images/animation.gif" width={500} height={500} />
