@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -14,7 +15,7 @@ function Projects() {
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
             <div className="sm:w-1/2 mb-10 px-8 shadow-2xl rounded-lg p-10 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)] transition-all duration-300">
               <div className="rounded-lg h-96 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="/images/chat-ss.jpg"
@@ -82,7 +83,7 @@ function Projects() {
             </div>
             <div className="sm:w-1/2 mb-10 px-8 shadow-2xl rounded-lg p-10 hover:shadow-[5px_5px_0px_0px_rgba(109,40,217)] transition-all duration-300">
               <div className="rounded-lg h-96 overflow-hidden">
-                <img
+                <Image
                   alt="content"
                   className="object-cover object-center h-full w-full"
                   src="/images/tailor-ss.png"
