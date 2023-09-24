@@ -64,7 +64,7 @@ function IntroPage() {
             src="/images/mypic.jpg"
             width={200}
             height={200}
-            priority={true}
+            unoptimized={true}
           />
         </div>
       </div>
