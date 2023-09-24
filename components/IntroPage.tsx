@@ -6,7 +6,7 @@ function IntroPage() {
   return (
     <div className="px-8 text-white pt-20 h-screen cursor-pointer">
       <div className="flex lg:flex-row md:flex-col flex-col justify-between items-center gap-y-10">
-        <div className="flex flex-col justify-center items-center md:items-center lg:items-start gap-5">
+        <div className="flex flex-col justify-center items-center md:items-center lg:items-start gap-5 text-focus-in ">
           <p className="font-medium text-3xl">Hello There</p>
           <h1 className="font-semibold text-6xl text-center tracking-wide hover:text-[#F4A261] transition-colors duration-500">
             I’m Khalid Hasan Sagar
@@ -59,7 +59,7 @@ function IntroPage() {
         </div>
         <div>
           <Image
-            className="border-2 border-white rounded-full rounded-bl-2xl lg:w-[500px] lg:h-full hover:opacity-80 transition-all duration-300 hover:border-[#F4A261]"
+            className="border-2 border-white rounded-full rounded-bl-2xl lg:w-[500px] lg:h-full hover:opacity-80 transition-all duration-300 hover:border-[#F4A261] scale-in-hor-right"
             alt=""
             src="/images/mypic.jpg"
             width={200}
