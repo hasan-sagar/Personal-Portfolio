@@ -26,30 +26,13 @@ function AboutPage() {
               +88-01846970209
             </p>
           </div>
-          {/* <h2 className="text-center lg:text-start text-2xl font-medium text-[#F4A261]">
-            Based In BANGLADESH
-          </h2> */}
+
           <p className="py-5 font-normal text-[24px] text-center lg:text-start hover:text-[#F4A261] transition-all duration-300 cursor-pointer">
             Hi, I just received my bachelor's degree from Daffodil International
             University in Bangladesh. Gaming and technologyboth attracts me.
             enjoys reading articles and playing the guitar. I'm now looking for
             an entry-level opportunity to start mysoftware engineering career.
           </p>
-
-          {/* <div className="text-center text-white lg:text-start mt-5 text-lg font-normal">
-            <p>
-              Hi, I just received my bachelor's degree from Daffodil
-              International
-            </p>
-            <p>
-              University in Bangladesh. Gaming and technology both attracts me.
-            </p>
-            <p>Enjoys reading articles and playing the guitar.</p>
-            <p>
-              I'm now looking for an entry-level opportunity to start mysoftware
-              engineering career.
-            </p>
-          </div> */}
         </div>
       </div>
     </section>
